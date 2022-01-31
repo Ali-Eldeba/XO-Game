@@ -13,7 +13,7 @@ body {
   --secondary-color: blue;
 }
 .container {
-  width: 45%;
+  width: 60%;
   height: 95vh;
   position: absolute;
   top: 50%;
@@ -35,7 +35,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 5px;
+  /* gap : 5px; */
 }
 .game .title {
   width: 100%;
@@ -45,6 +45,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2px;
 }
 .game .box {
   width: calc((100% / 3) - 5px);
@@ -55,6 +56,7 @@ body {
   justify-content: center;
   font-size: 70px;
   text-transform: uppercase;
+  margin: 2px;
 }
 .game .box:hover {
   cursor: pointer;
@@ -62,7 +64,7 @@ body {
 }
 @media (max-width: 768px) {
   .container {
-    width: 50%;
+    width: 70%;
     height: 50vh;
     transform: translate(-50%, -95%);
     -webkit-transform: translate(-50%, -95%);
@@ -73,7 +75,7 @@ body {
 }
 @media (max-width: 600px) {
   .container {
-    width: 70%;
+    width: 100%;
     height: 50vh;
     transform: translate(-50%, -95%);
     -webkit-transform: translate(-50%, -95%);
