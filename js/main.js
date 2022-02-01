@@ -37,7 +37,7 @@ function check() {
   } else if (boxes[4] === boxes[5] && boxes[5] === boxes[6] && boxes[4] != "") {
     win(boxes[4], boxes[5], boxes[6]);
   } else if (boxes[7] === boxes[8] && boxes[8] === boxes[9] && boxes[7] != "") {
-    location.reload();
+    win(boxes[7], boxes[8], boxes[9]);
   }
 
   // Vertical
